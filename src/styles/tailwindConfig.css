@@ -1,0 +1,31 @@
+@theme {
+    /* Fonts */
+    --font-vazir: "Vazir";
+    --font-vazirLight: "Vazir Light";
+    --font-vazirMedium: "Vazir Medium";
+    --font-vazirBold: "Vazir Bold";
+    --font-vazirblack: "Vazir Black";
+    --font-homenaje: "Homenaje";
+    /* Colors */
+    --color-stateRed: "#FF1313";
+    --color-stateBlue: "#308CF8";
+    --color-blueBrand: "#4455E8";
+    --color-blueTint_1: "#D8DCFD";
+    --color-orangeBrand: "#FF9447";
+    --color-orangeTint_1: "#FFDEC7";
+    --color-orangeTint_2: "#FCC197";
+    --color-orangeTint_3: "#F29F64";
+    --color-orangeTint_4: "#E48849";
+    --color-grayBrand: "#808080";
+    --color-grayTint_1: "#E6E6E6";
+    --color-grayTint_2: "#CCC";
+    --color-grayTint_3: "#B3B3B3";
+    --color-grayTint_4: "#999999";
+    --color-grayShade_1: "#666666";
+    --color-overlayBcg: "#00000066";
+    --color-neutralBorder: "#E0E0E2";
+    --color-customGreen: "#0A8E46";
+    --color-darkGreen: "#20AC60";
+    --color-sea: "#F5F5F5";
+    --color-shade_2: "#4D4D4D";
+}

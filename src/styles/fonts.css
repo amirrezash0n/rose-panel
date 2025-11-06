@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Vazir";
+
+    font-weight: 400;
+
+    font-style: normal;
+
+    font-display: swap;
+
+    src: url("../fonts/Vazir/Vazir-Regular-FD.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Vazir Medium";
+
+    font-weight: 400;
+
+    font-style: normal;
+
+    font-display: swap;
+
+    src: url("../fonts/Vazir/Vazir-Medium-FD.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Vazir Bold";
+
+    font-weight: 400;
+
+    font-style: normal;
+
+    font-display: swap;
+
+    src: url("../fonts/Vazir/Vazir-Bold-FD.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Vazir Light";
+
+    font-weight: 400;
+
+    font-style: normal;
+
+    font-display: swap;
+
+    src: url("../fonts/Vazir/Vazir-Light-FD.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Vazir Black";
+
+    font-weight: 400;
+
+    font-style: normal;
+
+    font-display: swap;
+
+    src: url("../fonts/Vazir/Vazir-Black-FD.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Homenaje";
+
+    font-weight: 400;
+
+    font-style: normal;
+
+    font-display: swap;
+
+    src: url("../fonts/Homenaje/homenaje-latin-400-normal.woff2") format("woff2");
+}
