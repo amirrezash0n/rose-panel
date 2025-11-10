@@ -1,5 +1,4 @@
 import type { FC, SVGProps } from "react";
-
 import {
   Box1,
   BoxTick,
@@ -28,24 +27,37 @@ interface sidebarLinksProps {
 }
 
 export const sidebarLinks: sidebarLinksProps[] = [
-  { id: 1, title: "پیشخوان", href: "/", icon: Home2 },
-  { id: 2, title: "تخفیف ها", href: "/discounts", icon: TicketDiscount },
+  { id: 1, title: "پیشخوان", href: "/dashboard", icon: Home2 },
+
+  { id: 2, title: "تخفیف‌ها", href: "/discounts", icon: TicketDiscount },
   {
-    id: 1,
+    id: 3,
     title: "افزودن تخفیف",
-    href: "/add-discount",
+    href: "/discounts/add",
     icon: ReceiptDiscount,
   },
-  { id: 3, title: "برچست ها", href: "/tags", icon: Tag },
-  { id: 4, title: "افزودن برچسب", href: "/add-tag", icon: Tag2 },
-  { id: 5, title: "محصولات", href: "/products", icon: Box1 },
-  { id: 6, title: "افزودن دسته بندی", href: "/categories", icon: Category },
-  { id: 7, title: "دسته بندی ها", href: "/add-category", icon: Category2 },
-  { id: 8, title: "افزودن محصول", href: "/add-product", icon: BoxTick },
-  { id: 9, title: "کاربران", href: "/users", icon: Profile2User },
-  { id: 10, title: "افزودن ادمین", href: "/add-admin", icon: UserAdd },
-  { id: 11, title: "سفارشات", href: "/orders", icon: TruckFast },
-  { id: 12, title: "تیکت ها", href: "/tickets", icon: Headphone },
-  { id: 13, title: "دیدگاه ها", href: "/comments", icon: Messages3 },
-  { id: 14, title: "تنظیمات", href: "/settings", icon: Setting2 },
+
+  { id: 4, title: "برچسب‌ها", href: "/tags", icon: Tag },
+  { id: 5, title: "افزودن برچسب", href: "/tags/add", icon: Tag2 },
+
+  { id: 6, title: "محصولات", href: "/products", icon: Box1 },
+  { id: 7, title: "افزودن محصول", href: "/products/add", icon: BoxTick },
+
+  { id: 8, title: "دسته‌بندی‌ها", href: "/categories", icon: Category },
+  {
+    id: 9,
+    title: "افزودن دسته‌بندی",
+    href: "/categories/add",
+    icon: Category2,
+  },
+
+  { id: 10, title: "کاربران", href: "/users", icon: Profile2User },
+  { id: 11, title: "افزودن ادمین", href: "/admins/add", icon: UserAdd },
+
+  { id: 12, title: "سفارشات", href: "/orders", icon: TruckFast },
+
+  { id: 13, title: "تیکت‌ها", href: "/tickets", icon: Headphone },
+  { id: 14, title: "دیدگاه‌ها", href: "/comments", icon: Messages3 },
+
+  { id: 15, title: "تنظیمات", href: "/settings", icon: Setting2 },
 ];
