@@ -1,12 +1,7 @@
-import {
-  SearchNormal,
-  Notification,
-  Moon,
-  Sun,
-  TextalignCenter,
-} from "iconsax-reactjs";
+import { SearchNormal, Notification, Moon, Sun } from "iconsax-reactjs";
 import NotificationMesseges from "../messages/NotificationMesseges";
 import { useState, useRef } from "react";
+import { IoIosMenu } from "react-icons/io";
 
 export default function MainHeader() {
   const [notification, setNotification] = useState(false);
@@ -36,10 +31,10 @@ export default function MainHeader() {
   }
 
   return (
-    <div className="flex items-center justify-between md:justify-end text-neutral-800">
+    <div className="flex items-center justify-between lg:justify-self-end text-neutral-800">
       {/* Sidebar Open btn */}
-      <div className="md:hidden p-2 bg-rose-100 rounded-full sm:cursor-pointer sm:hover:bg-rose-200 transition-colors">
-        <TextalignCenter />
+      <div className="lg:hidden p-2 bg-rose-100 rounded-full sm:cursor-pointer sm:hover:bg-rose-200 transition-colors">
+        <IoIosMenu className="size-6" />
       </div>
       {/* Buttons: Theme | notification | search */}
       <div className="flex items-center gap-2.5">
